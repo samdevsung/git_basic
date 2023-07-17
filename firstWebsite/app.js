@@ -5,3 +5,6 @@ menu.addEventListener("click", function () {
   menu.classList.toggle("is-active");
   menuLinks.classList.toggle("active");
 });
+
+const inola = document.querySelector(".main__content h1")
+inola.textContent= "NEXT GENERATION"
